@@ -42,6 +42,6 @@ EOF
 }
 
 resource "aws_iam_instance_profile" "hello" {
-  name = "hello-profile"
+  name = "hello-profile-1"
   role = aws_iam_role.hello.name
 }
